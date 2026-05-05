@@ -1,0 +1,247 @@
+/*xs` applies to x-small devices*/
+@media (max-width: 575.98px){
+	.menu_i ul li a{
+		margin-right: 0;
+		font-size: 12px;
+	}
+	.menu_btn{
+		padding: 8px 24px;
+		font-size: 12px;
+	}
+	/*hero*/
+	.hero{
+		padding-bottom: 50px;
+		margin: 5px 10px;
+		text-align: center;
+	}
+	.her_text{
+		margin: 10px 10px;
+	}
+	.her_text p:first-child{
+		font-size: 14px;
+	}
+	.her_text h1{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.her_text p:last-of-type{
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.her_text button{
+		font-size: 14px;
+		padding: 10px 30px;
+	}
+	/*books*/
+	.pb_100{
+		padding-bottom: 60px;
+	}
+	.book_box{
+		margin-top: 30px;
+	}
+	/*feature*/
+	.c_title h1{
+		font-size: 30px !important;
+	}
+	.c_single{
+		justify-content: center;
+		margin-top: 50px;
+	}
+	.btn_course{
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	.c_left span, .c_right span{
+		font-size: 14px;
+	}
+	/*course ends*/
+	.c_title h1{
+		font-size: 30px !important;
+	}
+	.testimony{
+		padding-bottom: 80px;
+	}
+	.t_item{
+		margin-top: 60px;
+		text-align: center;
+	}
+	.c_h1{
+		font-size: 30px;
+	}
+	.t_img img{
+		width: 40%;
+	}
+	.t_text p{
+		font-size: 13px;
+	}
+	/*footer*/
+	footer p{
+		font-size: 12px;
+	}
+	footer h4{
+		font-size: 14px;
+	}
+	.f_heading ul li a{
+		font-size: 10px;
+	}
+}	
+/*sm` applies to small devices*/
+@media (min-width: 576px) and (max-width: 767.98px){
+	.menu_i ul li a{
+		margin-right: 0;
+		font-size: 12px;
+	}
+	.menu_btn{
+		padding: 8px 24px;
+		font-size: 12px;
+	}
+	/*hero*/
+	.hero{
+		padding-bottom: 50px;
+	}
+	.her_text{
+		margin: 10px 10px;
+	}
+	.her_text p:first-child{
+		font-size: 12px;
+	}
+	.her_text h1{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.her_text p:last-of-type{
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.her_text button{
+		font-size: 12px;
+		padding: 10px 30px;
+	}
+	/*books*/
+	.pb_100{
+		padding-bottom: 60px;
+	}
+	.book_box{
+		margin-top: 30px;
+	}
+	/*feature*/
+	.c_title h1{
+		font-size: 30px !important;
+	}	
+	.c_single{
+		justify-content: center;
+		margin-top: 50px;
+	}
+	.btn_course{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	.c_left span, .c_right span{
+		font-size: 16px;
+	}
+	/*course ends*/
+	.c_title h1{
+		font-size: 30px !important;
+	}
+	.testimony{
+		padding-bottom: 80px;
+	}
+	.t_item{
+		margin-top: 60px;
+	}
+	.c_h1{
+		font-size: 32px;
+	}
+	.t_img{}
+	.t_img img{
+		width: 100%;
+	}
+	.t_text{}
+	.t_text p{
+		font-size: 13px;
+	}
+	/*footer*/
+	footer p{
+		font-size: 12px;
+	}
+	footer h4{
+		font-size: 16px;
+	}
+	.f_heading ul li a{
+		font-size: 12px;
+	}		
+}
+/*/*md` applies to medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px){
+	.menu_i ul li a{
+		margin-right: 12px;
+		font-size: 12px;
+	}
+	.menu_btn{
+		padding: 8px 24px;
+		font-size: 12px;
+	}
+	/*hero*/
+	.hero{
+		padding-bottom: 50px;
+	}
+	.her_text{
+		margin: 10px 10px;
+		text-align: center;
+	}
+	.her_text p:first-child{
+		font-size: 12px;
+	}
+	.her_text h1{
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.her_text p:last-of-type{
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.her_text button{
+		margin-top: 15px;
+		font-size: 12px;
+		padding: 10px 30px;
+	}
+	/*books*/
+	.pb_100{
+		padding-bottom: 80px;
+	}
+	/*feature*/
+	.c_title h1{
+		font-size: 30px !important;
+	}
+	.testimony{
+		padding-bottom: 80px;
+	}
+	.t_item{
+		margin-top: 60px;
+	}
+	.c_h1{
+		font-size: 32px;
+	}
+	.t_img{}
+	.t_img img{
+		width: 100%;
+	}
+	.t_text{}
+	.t_text p{
+		font-size: 14px;
+	}	
+}
+/*lg` applies to large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.f_tx p{
+		letter-spacing: 1px;
+	}
+}
+/*xl` applies to extra large devices*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+}
+/*/*xxl` applies to extra x-large devices*/
+@media (min-width: 1400px){
+
+}

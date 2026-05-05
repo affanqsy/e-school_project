@@ -1,0 +1,242 @@
+/*font family*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font family*/
+:root{
+	--bl: #000000;
+	--or: #FD511A;
+	--gr: #21B573;
+	--wh: #ffffff;
+	--h3: #413960;
+	--po: "Poppins", sans-serif;
+	--ro: "Roboto", sans-serif;
+	--bg: #F0FFF0;
+}
+body{
+	font-family: var(--po);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--bl);
+}
+/* Preloader full screen */
+#preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f0fff0; /* light green bg */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* text */
+.loader h1{
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #21b573; /* E-school green */
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+/* spinner */
+.spinner{
+  width: 40px;
+  height: 40px;
+  border: 4px solid #21b573;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: spin 1s linear infinite;
+}
+
+/* animation */
+@keyframes spin{
+  0%{ transform: rotate(0deg); }
+  100%{ transform: rotate(360deg); }
+}
+button{
+	font-family: var(--ro);
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	border-radius: 33px;
+	background-color: var(--gr);
+}
+/*header starts*/
+.logo img {
+	width: 100%;
+}
+header{
+	background-color: var(--bg);
+}
+.menu_i ul li a{
+	margin-right: 16px;
+	transition: .33s ease;
+}
+.menu_i ul li a:hover{
+	color: var(--h3);
+	transform: scale(1.1);
+}
+.menu_i ul li a:active{
+	transform: scale(0.8);
+}
+.menu_btn{
+	padding: 12px 28px;
+	font-family: var(--ro);
+	color: var(--wh);
+	text-decoration: none;
+	border-radius: 33px;
+	background-color: var(--gr);
+}
+/*header ends*/
+/*hero starts*/
+#home{
+	background-color: var(--bg);
+}
+.hero{
+	padding-bottom: 70px;
+}
+.her_text{
+	margin: 10px 60px;
+}
+.her_text p:first-child{
+	margin-top: 50px;
+	color: #FD511A;
+}
+.her_text h1{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+}
+.colo_ch{
+	color: var(--gr);
+}
+.her_text p:last-of-type{
+	line-height: 36px;
+}
+.her_text button{
+	padding: 12px 36px;
+	margin-top: 20px;
+}
+/*hero ends*/
+/*Books starts*/
+#books{}
+.pb_100{
+	padding-bottom: 100px;
+}
+.book_box{
+	margin-top: 40px;
+	padding: 55px 0 50px;
+	background-color: #F8FFFB;
+	border-radius: 10px;
+	transition: .33s linear;
+}
+.boo_img{
+	margin: 0 auto;
+	width: 75px;
+	height: 80px;
+}
+.com_h3{
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: 500;
+	color: var(--h3);
+}
+.book_box:hover{
+	background-color: var(--wh);
+	box-shadow: 0px 20px 40px 0px #0000001A;
+}
+/*Books ends*/
+/*course starts*/
+.c_title h1{
+	margin-bottom: 0 !important;
+	font-size: 36px !important;
+	font-weight: 700 !important;
+	color: var(--bl) !important;
+}
+.c_single{
+	margin-top: 60px;
+	padding: 25px 20px 30px;
+	border-radius: 18px;
+	box-shadow: 0px 10px 40px 0px #0000001A;
+}
+.co_img{}
+.co_img img{
+	border-radius: 10px;
+}
+.btn_course{
+	margin-top: 20px;
+	margin-bottom: 35px;
+	border-radius: 33px;
+	padding: 7px 26px;
+	font-family: var(--ro);
+	font-size: 16px;
+	color: var(--wh);
+	background-color: var(--gr);
+}
+.c_left img, .c_right img{}
+.c_left span, .c_right span{
+	font-size: 16px;
+	color: #585859;
+}
+/*course ends*/
+/*testimony starts*/
+#testimony{
+	padding-bottom: 100px;
+}
+.c_title{}
+.t_item{
+	margin-top: 60px;
+}
+.c_h1{
+	font-family: "Poppins", sans-serif;
+	font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  color: #000000;
+}
+.t_img{}
+.t_img img{
+	width: 100%;
+}
+.t_text{}
+.t_text p{
+	font-family: var(--po);
+	font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+/*testimony ends*/
+/*footer*/
+footer{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: #282531;
+}
+footer p{
+	color: var(--wh);
+}
+footer h4{
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--wh);
+}
+.f_heading ul{
+	margin-left: 0;
+}
+.f_heading ul li{
+	list-style: none;
+}
+.f_heading ul li a{
+	color: var(--wh);
+	text-decoration: none;
+}
+.copyright span{
+	color: var(--wh);
+}
